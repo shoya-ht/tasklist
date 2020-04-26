@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<label for="title">タスク</label><br />
-<input type="text" name="title" value="${task.title}"/>
-<br /><br />
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <label for="content">タスク内容</label><br />
 <input type="text" name="content" value="${task.content}"/>
